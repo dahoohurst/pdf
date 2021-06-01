@@ -1,6 +1,6 @@
 The Pdf Gear
 ================================================================================
-[![Build Status](https://travis-ci.org/hejingyuan199/pdf.svg)](https://travis-ci.org/hejingyuan199/pdf)
+[![Build Status](https://travis-ci.com/hejingyuan199/pdf.svg)](https://travis-ci.com/hejingyuan199/pdf)
 [![Latest Stable Version](https://poser.pugx.org/gears/pdf/v/stable.svg)](https://packagist.org/packages/gears/pdf)
 [![Total Downloads](https://poser.pugx.org/gears/pdf/downloads.svg)](https://packagist.org/packages/gears/pdf)
 [![License](https://poser.pugx.org/gears/pdf/license.svg)](https://packagist.org/packages/gears/pdf)
