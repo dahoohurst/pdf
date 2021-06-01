@@ -1,5 +1,13 @@
 tests/output/*
 !tests/output/.gitkeep
+
+# Composer
 vendor
 composer.lock
-.idea/*
+
+# PhpStorm
+.idea/
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache

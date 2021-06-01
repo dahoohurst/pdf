@@ -29,8 +29,8 @@
 	"require-dev":
 	{
 		"codegyre/robo": "*",
-		"phpunit/phpunit": "4.*",
-		"guzzlehttp/guzzle": "4.*",
+		"phpunit/phpunit": "8.*",
+		"guzzlehttp/guzzle": "7.*",
 		"sgh/pdfbox": "dev-master"
 	},
 	"scripts":

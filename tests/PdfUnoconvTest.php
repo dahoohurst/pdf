@@ -13,12 +13,13 @@
 
 use Gears\Str;
 use SGH\PdfBox\PdfBox;
+use PHPUnit\Framework\TestCase;
 
-class PdfUnoconvTest extends PHPUnit_Framework_TestCase
+class PdfUnoconvTest extends TestCase
 {
 	protected $pdfBox;
 
-	protected function setUp()
+	protected function setUp() : void
 	{
 		$this->pdfBox = new PdfBox;
 		$this->pdfBox->setPathToPdfBox('./tests/pdfbox-app-1.8.7.jar');
