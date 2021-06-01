@@ -32,7 +32,7 @@ class PdfLibreOfficeTest extends TestCase
 
 	public function testConvert()
 	{
-		Gears\Pdf::convert('./tests/templates/Convert.docx', './tests/output/LibreOfficeConvert.pdf', ['converter' => $this->converter]);
+		Gears\Pdf::convert('./tests/templates/Convert.docx', './tests/output/LibreOfficeConvert.pdf');
 
 		$text = Str::s($this->pdfBox->textFromPdfFile('./tests/output/LibreOfficeConvert.pdf'))->to('ascii');
 
