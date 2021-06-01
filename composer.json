@@ -24,7 +24,7 @@
 		"symfony/process": "2.*",
 		"symfony/filesystem": "2.*",
 		"google/apiclient": "1.*",
-		"jakoch/phantomjs-installer": "1.9.8"
+		"jakoch/phantomjs-installer": "3.0.0"
 	},
 	"require-dev":
 	{
