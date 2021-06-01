@@ -12,7 +12,7 @@ Installation via composer is easy:
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/daniel-hocking/pdf"
+          "url": "https://github.com/hejingyuan199/pdf"
       }
   ],
   "require": {
@@ -22,7 +22,9 @@ Installation via composer is easy:
 
 How to Use
 --------------------------------------------------------------------------------
-Comming Soon...
+This is forked from https://github.com/daniel-hocking/pdf
 
 --------------------------------------------------------------------------------
-Developed by Brad Jones - brad@bjc.id.au
+Originally developed by Brad Jones - brad@bjc.id.au
+Then Daniel Hocking
+Now Jingyuan He

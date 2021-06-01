@@ -1,7 +1,7 @@
 {
 	"name": "gears/pdf",
 	"description": "A PDF builder using DOCX templates.",
-	"homepage": "https://github.com/daniel-hocking/pdf",
+	"homepage": "https://github.com/hejingyuan199/pdf",
 	"keywords": ["pdf", "docx", "template", "builder", "converter"],
 	"license": "MIT",
 	"autoload":
