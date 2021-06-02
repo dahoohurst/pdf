@@ -21,8 +21,7 @@
 	{
 		"gears/string": "dev-master",
 		"gears/di": "*",
-		"symfony/process": "2.*",
-		"symfony/filesystem": "2.*",
+		"symfony/process": "^4.0",
 		"google/apiclient": "1.*",
 		"jakoch/phantomjs-installer": "3.0.0"
 	},
