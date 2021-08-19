@@ -19,7 +19,7 @@
 	],
 	"require":
 	{
-		"gears/string": "v1.1.0",
+		"gears/string": "v1.1.*",
 		"gears/di": "*",
 		"symfony/process": "^4.0",
 		"google/apiclient": "1.*",
