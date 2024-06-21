@@ -1,7 +1,7 @@
 {
 	"name": "gears/pdf",
 	"description": "A PDF builder using DOCX templates.",
-	"homepage": "https://github.com/hejingyuan199/pdf",
+	"homepage": "https://github.com/dahoohurst/pdf",
 	"keywords": ["pdf", "docx", "template", "builder", "converter"],
 	"license": "MIT",
 	"autoload":
@@ -14,14 +14,14 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/hejingyuan199/string"
+			"url": "https://github.com/dahoohurst/string"
 		}
 	],
 	"require":
 	{
-		"gears/string": "v1.1.*",
+		"gears/string": "v1.*",
 		"gears/di": "*",
-		"symfony/process": "^4.0",
+		"symfony/process": "^4.0 || ^5.0",
 		"google/apiclient": "1.*",
 		"jakoch/phantomjs-installer": "3.0.0"
 	},

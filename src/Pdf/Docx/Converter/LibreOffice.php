@@ -13,7 +13,6 @@
 
 use RuntimeException;
 use Gears\Di\Container;
-use Gears\Str;
 use Gears\Pdf\TempFile;
 use Symfony\Component\Process\Process;
 use Gears\Pdf\Contracts\DocxConverter;
@@ -78,7 +77,7 @@ class LibreOffice extends Container implements DocxConverter
 
 		$this->process = $this->protect(function($cmd)
 		{
-			return new Process($cmd);
+			return new Process(array($cmd));
 		});
 	}
 

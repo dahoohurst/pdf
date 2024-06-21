@@ -65,7 +65,7 @@ class Unoconv extends Container implements DocxConverter
 
 		$this->process = $this->protect(function($cmd)
 		{
-			return new Process($cmd);
+			return new Process(array($cmd));
 		});
 	}
 

@@ -87,7 +87,7 @@ class Backend extends Container implements BackendInterface
 
 		$this->process = $this->protect(function($cmd)
 		{
-			return new Process($cmd);
+			return new Process(array($cmd));
 		});
 
 		$this->tempFile = $this->protect(function()

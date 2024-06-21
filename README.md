@@ -10,7 +10,7 @@ Installation via composer is easy:
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/hejingyuan199/pdf"
+          "url": "https://github.com/dahoohurst/pdf"
       }
   ],
   "require": {
